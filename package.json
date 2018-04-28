@@ -11,7 +11,7 @@
     "test-watch": "yarn test --watch",
     "test-debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand ",
     "lint": "eslint . ./",
-    "precommit": "lint-staged && npm test"
+    "postinstall": "npm run build" 
   },
   "author": "",
   "keywords": [
